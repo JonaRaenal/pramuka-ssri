@@ -1,0 +1,104 @@
+/* Konten Dalam */
+.jumbotron {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('/gmbr/bg2.png');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    min-height: 85vh;
+}
+.desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30vh 30px 30px 30px;
+    color: white;
+}
+.desc p {
+    margin: 20px 0;
+}
+.desc a {
+    text-decoration: none;
+	padding: 10px;
+	border-radius: 10px;
+	background: linear-gradient(to right,gold,goldenrod);
+	color: black;
+	font-weight: bold;
+	transition: .3s linear;
+}
+.desc a:hover {
+    transform: scale(1.05);
+}
+/* Konten dalam (kartu) */
+.contain-sect {
+    padding: 50px;
+}
+.contain-sect .heading {
+    text-align: center;
+    font-size: 24px;
+}
+.contain-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.box {
+    margin-top: 3rem;
+    flex: 1 0 300px;
+    height: 400px;
+    background: url(/gmbr/bg-box.png);
+    background-size: cover;
+    border: 2px solid goldenrod;
+    border-radius: 20px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: .3s linear;
+}
+.box:hover {
+    transform: scale(1.075);
+}
+.box-content {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    text-align: center;
+}
+.box-content .box-img {
+    width: 175px;
+    height: 175px;
+}
+.box-content .box-img img {
+    width: 100%;
+    height: 100%;
+}
+.box-content h3 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+.box-content p {
+    margin: 15px 0;
+}
+.box-content a {
+	text-decoration: none;
+	color: black;
+	border-radius: 10px;
+	padding: 5px 8px;
+	border: 1px solid black;
+	transition: .3s linear;
+}
+.box-content a:hover {
+	background-color: darkgoldenrod;
+	color: white;
+}
+/* Responsive Breakpoint */
+/* For Tablet & Mobile */
+@media screen and (max-width: 768px) {
+    .desc {
+        padding: 20vh 30px 30px 30px;
+    }
+}

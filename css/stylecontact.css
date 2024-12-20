@@ -1,0 +1,82 @@
+.contain-contact {
+	padding: 10px 25px;
+}
+.contain-contact h2 {
+	text-align: center;
+}
+.contain-contact form {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+    align-items: center;
+	background-color: #814d42;
+	box-shadow: 3px 3px 5px #522c23;
+	padding: 25px;
+	margin: 10px 30px;
+	border-radius: 20px;
+}
+.input-contact {
+	width: 500px;
+	padding: 20px;
+	margin: 10px 20px;
+	background: white;
+	border-radius: 15px;
+}
+.input-contact input,
+.input-contact textarea {
+	width: 95%;
+	margin: 10px 0;
+	padding: 8px 10px;
+	background: transparent;
+	border: none;
+	border-radius: 15px;
+	box-shadow: inset 3px 3px 3px 0 rgba(0, 0, 0, 0.2),inset -3px -3px 3px 0 rgba(255, 255, 255, 0.2);
+}
+.input-contact textarea {
+	height: 150px;
+}
+.input-contact button {
+	padding: 8px 15px;
+	background-color: goldenrod;
+	color: white;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+    transition: .2s linear;
+}
+.input-contact button:hover {
+	background-color: darkgoldenrod;
+}
+.follow {
+	width: 500px;
+	padding: 20px;
+	margin: 10px 20px;
+}
+.follow h3 {
+	position: relative;
+	color: white;
+	font-size: 24px;
+}
+.follow h3::before {
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+	background-color: goldenrod;
+	height: 2px;
+	width: 75%;
+}
+.follow li {
+	list-style: none;
+	margin: 20px 0;
+}
+.follow a {
+	text-decoration: none;
+	color: white;
+	font-size: 24px;
+	transition: .3s linear;
+}
+.follow a:hover {
+	color: gold;
+	padding-left: 8px;
+}

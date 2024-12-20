@@ -1,0 +1,84 @@
+.header {
+    text-align: center;
+    background: linear-gradient(to right,gold,goldenrod);
+	text-align: center;
+	font-size: 36px;
+	padding: 15px 0;
+}
+.judul {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: -20px;
+    text-decoration: underline;
+    font-style: italic;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding: 0 40px 40px 40px;
+}
+.content {
+    margin-top: 3rem;
+    flex: 1 0 300px;
+    height: 450px;
+    overflow: auto;
+    background: linear-gradient(gold,goldenrod);
+    border-radius: 1.5rem;
+    cursor: pointer;
+    /* buat hilangin scroll di IE, Edge, Firefox */
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+/* buat hilangin scroll di Chrome, Opera, Safari */
+.content::-webkit-scrollbar{
+    display: none;
+}
+.sub-content {
+    height: auto;
+    padding: 30px;
+}
+/* sub-content buat gambar */
+.sub-content .cap-1 {
+    width: 200px;
+    height: 250px;
+    float: left;
+    padding: 5px;
+}
+.sub-content .cap-2 {
+    width: 200px;
+    height: 250px;
+    float: right;
+    padding: 5px;
+}
+/* sub-content bagian teks */
+.sub-content h2 {
+    margin: 10px 0;
+}
+.sub-content p, .sub-content li {
+    line-height: 1.5;
+}
+.source a {
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+    transition: .2s linear;
+}
+.source a:hover {
+    background-color: darkgoldenrod;
+    color: white;
+    padding: 3px;
+}
+.src-space {
+    padding: 0 50px;
+}
+/* Kode Alignment */
+.spi-center {
+    text-align: center;
+}
+.spi-right {
+    text-align: right;
+}

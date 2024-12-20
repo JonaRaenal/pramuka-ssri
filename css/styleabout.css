@@ -1,0 +1,32 @@
+.contain-about {
+	padding: 10px 25px;
+}
+.contain-about img {
+	width: 155px;
+	padding: 10px;
+	float: left;
+	cursor: pointer;
+}
+.contain-about h2, .contain-about p {
+	margin: 8px 0;
+}
+.struct-head {
+	text-align: center;
+	margin: 8px 0;
+}
+.structure {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+    text-align: center;
+}
+.struct-content {
+	width: 350px;
+	margin: 20px 10px;
+	padding: 10px;
+	border: 2px solid goldenrod;
+	border-radius: 20px;
+}
+.struct-content p {
+    margin: 5px 0;
+}

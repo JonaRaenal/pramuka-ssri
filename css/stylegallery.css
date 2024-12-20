@@ -1,0 +1,38 @@
+.container {
+    max-width: 1224px;
+    width: 90%;
+    margin: auto;
+    padding: 30px 0;
+}
+.title {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.title h1 {
+    margin-bottom: 10px;
+}
+.photo-gallery {
+    display: flex;
+    gap: 20px;
+}
+.collum {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.photo img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+    transition: .2s linear;
+}
+.photo img:hover {
+    opacity: 0.75;
+}
+/* Galeri Responsif untuk Tablet dan HP */
+@media screen and (max-width: 768px) {
+    .photo-gallery {
+        flex-direction: column;
+    }
+}
